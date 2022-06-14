@@ -5,7 +5,6 @@ test_list = [[[1, 3, 4, 5, 8, 2, 1, 4, 5, 9, 5], "right"], [[7, 0, 8, 2, 8, 3, 1
 test_result = [solution(*input) for input in test_list]
 ans = ["LRLLLRLLRRL", "LRLLRRLLLRR", "LLRLLRLLRL"]
 
-
 print(test_result)
 print()
 print(test_result == ans)
