@@ -1,0 +1,9 @@
+from solution import solution
+
+test_list = []
+test_result = [solution(*input) for input in test_list]
+ans = []
+
+print(test_result)
+print()
+print(test_result == ans)
