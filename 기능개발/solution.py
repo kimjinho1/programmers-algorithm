@@ -7,7 +7,7 @@ def solution(progresses, speeds):
     max_t = 0
     while q:
         t = q.popleft()
-        if not ans or t > max_t:
+        if t > max_t:
             max_t = t
             ans.append(1)
         else:
